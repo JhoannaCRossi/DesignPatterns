@@ -68,3 +68,60 @@ in Java
             Reutiliza objetos de tal manera que pueda crear apps
             con la menor cantidad de recursos haciendola ligera por la
             reutilización de objetos.
+            
+  - [Patrones Comportamientos](https://github.com/JhoannaCRossi/DesignPatterns/tree/master/Comportamientos)
+      - [Chain of Responsability](https://github.com/JhoannaCRossi/DesignPatterns/tree/master/Comportamiento/ChainOfResponsability/src/main)
+      
+            Permite establecer una cadena de objetos receptores a traves de los cuales se pasa
+            una petición formulada por un objeto emisor.
+            Un objeto nos envia una petición y otro bjeto debe ser capaz de responser esa petición
+
+      - [Command](https://github.com/JhoannaCRossi/DesignPatterns/tree/master/Comportamiento/Command/src/main)
+      
+            Encapsula un mensaje como un objeto, específica la forma simple de separar
+            un comando del entorno que genero dicho comando.
+            
+      - [Iterator](https://github.com/JhoannaCRossi/DesignPatterns/tree/master/Comportamiento/Iterator/src/main)
+              
+            Provee un mecanismo estandar para acceder a los elementos de una colección.
+            Interfaz mediadora para acceder a las propiedades del objeto.
+            
+      - [Mediator](https://github.com/JhoannaCRossi/DesignPatterns/tree/master/Comportamiento/Mediator/src/main)
+      
+            Define un objeto que encapsula cuando se desea comunicar con otro entre sí.
+      
+      - [Memento](https://github.com/JhoannaCRossi/DesignPatterns/tree/master/Comportamiento/Memento/src/main)
+
+            Captura y exporta el estado interno de un objeto que luego se puede
+            restaurar sin romper la encapsulación. Obtiene una copia de seguridad
+            de un objeto parcial o total.
+  
+      - [Observer](https://github.com/JhoannaCRossi/DesignPatterns/tree/master/Comportamiento/Observer/src/main)
+
+            Utilizado porque optimiza mucho las tareas, define una dependencia de uno o
+            muchis entre los objetos para que cuando un objeto cambie de estado sus 
+            dependientes sean notificados y actualizados automáticamente.
+            
+      - [State](https://github.com/JhoannaCRossi/DesignPatterns/tree/master/Comportamiento/State/src/main)
+      
+            Permite que un objeto modifique su comportamiento cada vez que cambie 
+            su estado interno.
+            Reacción dependiendo del cambio. "Máquinas de estado"
+            
+      - [Visitor](https://github.com/JhoannaCRossi/DesignPatterns/tree/master/Comportamiento/Visitor/src/main)
+      
+             Permite definir una nueva operación sin cambiar 
+             las clases ni los elementos que las opera,
+             pretende separar los algoritmos de la estructura 
+             de un objeto.
+          
+      - [Strategy](https://github.com/JhoannaCRossi/DesignPatterns/tree/master/Comportamiento/Strategy/src/mai)
+      
+            Permite capturar algoritmos en clases, de tal manera 
+            que puedes usar algoritmos en tiempos de ejecución.
+       
+      - [Template Method](https://github.com/JhoannaCRossi/DesignPatterns/tree/master/Comportamiento/TemplateMethod/src/main)
+      
+            Define una estructura algoritmica cuya lógica 
+            quedará a cargo de las subClases ("Clases Abstractas").
+
